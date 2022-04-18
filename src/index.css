@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(90deg, #557383 20%, #919191 100%);
+}
+
+.app {
+  width: 90%;
+  max-width: 43rem;
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: #f4f4f5;
+  margin: 3rem auto;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-control input,
+.form-control label {
+  display: block;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control select {
+  font: inherit;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  border-radius: 20px;
+  border: none;
+  width: 20rem;
+  max-width: 100%;
+  transition: all 0.7s;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+  border: 0.2px solid #6b5e5e61;
+  background-color: rgba(255, 255, 255, 0.841);
+}
+
+.form-control input:focus {
+  outline: none;
+  background-color: #f0f9ff;
+  transform: translateY(-5px);
+}
+
+.control-group {
+  display: flex;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.control-group .form-control {
+  min-width: 15rem;
+  flex: 1;
+}
+
+button {
+  font: inherit;
+  background-color: #0369a1;
+  color: #fafafa;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.5s;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+}
+
+button:hover,
+button:active {
+  background-color: #0284c7;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #0759857a;
+  color: #292929e6;
+  border: none;
+  cursor: not-allowed;
+}
+
+.form-actions {
+  text-align: right;
+}
+
+.form-actions button {
+  margin-left: 1rem;
+}
+
+.invalid input {
+  background-color: #fecaca;
+}
+
+.invalid input:focus {
+  background-color: #fed7aa;
+}
+
+.error-text {
+  color: #ef4444;
+}
