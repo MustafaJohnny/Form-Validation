@@ -11,7 +11,7 @@ Form Validation is a Simple Practical React Project, the user simply have/has a 
 
 ## Links
 
-- Live Site URL: 
+- Live Site URL: https://form-validation-mustafa.netlify.app/
 
 
 ## Built with
